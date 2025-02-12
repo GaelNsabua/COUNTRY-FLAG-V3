@@ -36,6 +36,11 @@ fun HomeScreen(navController: NavController) {
             ) {
                 Text(text = "Afficher les drapeaux")
             }
+            Button(
+                onClick = { navController.navigate("countryScreen") }
+            ) {
+                Text(text = "Afficher les pays africains")
+            }
         }
     }
 }
